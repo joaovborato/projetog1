@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>G1 - O portal de notícias da Globo</title>
-		<link rel="stylesheet" href="reset.css">
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Montserrat:wght@300&family=Nunito:wght@200&display=swap" rel="stylesheet">
@@ -13,239 +13,236 @@
 
 	<body>
 		<header>
-			<div class="faixa-navegacao">
-				<nav class="navegacao-header">
-					<ul class="lista-navegacao">
-						<li><a href="globo.html" id="globocom">globo.com</a></li>
-						<li><a href="g1.html" id="g1">g1</a></li>
-						<li><a href="ge.html" id="ge">ge</a></li>
-						<li><a href="gshow.html" id="gshow">gshow</a></li>
-						<li><a href="globoplay.html" id="globoplay">globoplay</a></li>
-						<li><a href="oglobo.html" id="oglobo">o globo</a></li>
-					</ul>
-				</nav>
-				<nav class="navegacao-header">
-					<ul class="botoes">
-						<li><a href="assineja.html" id="assineja">ASSINE JÁ</a></li>
-						<li><a href="entrar.html" id="entrar">ENTRAR ></a></li>
-					</ul>
-				</nav>
-			</div>
+			<section id="navigation">
+				<div id="nav-container1">
+					<a href="globo.html" id="globocom" class="nav-container1-items">globo.com</a>
+					<a href="g1.html" id="g1" class="nav-container1-items">g1</a>
+					<a href="ge.html" id="ge" class="nav-container1-items">ge</a>
+					<a href="gshow.html" id="gshow" class="nav-container1-items">gshow</a>
+					<a href="globoplay.html" id="globoplay" class="nav-container1-items">globoplay</a>
+					<a href="oglobo.html" id="oglobo" class="nav-container1-items">o globo</a>
+				</div>
+				<div id="nav-container2">
+					<a href="assineja.html" id="assineja">ASSINE JÁ</a>
+					<a href="entrar.html" id="entrar">ENTRAR ></a>
+				</div>
+			</section>
 
-			<div class="faixa-principal">
+			<div id="main-bar">
 				<a href="index.html" id="menu">☰ MENU</a>
-				<h1 class="titulo-principal">g1</h1>
+				<h1 id="title">g1</h1>
 				<input type="search" id="busca" placeholder=" 🔍 BUSCAR">
 			</div>		
 		</header>
 
 		<main>
-			<div class="anuncios-principais">
-			<a href="https://youtu.be/o2gGD4ewTNA"><img src="img/a1.gif" class="anuncio1"></a>
-			</div>
-
-			<section class="caixa-principal">
-				<div class="caixa-esquerda">
-					<a href="https://instagram.com" class="imagem-link">
-					<h1>Queda na vertical</h1>
-					<h2>China encontra caixa-preta de avião que caiucom 132 pessoas a bordo</h2>
-					<p>Choque da aeronave com o solo provocou incendio. Não há sinais de sobreviventes</p>
-					</a>
+			<div id="main-container1">
+				<div id="first-gif" class="main-advertising">
+				<a href="https://youtu.be/o2gGD4ewTNA"><img src="img/a1.gif"></a>
 				</div>
-				<div class="caixa-direita">
-					<a href="https://g1.globo.com/politica/noticia/2022/03/28/governo-oficializa-saida-de-milton-ribeiro-quarto-ministro-da-educacao-de-bolsonaro.ghtml" class="imagem-link">
-					<h1>Escandalo dos pastores</h1>
-					<h2>Denúncias de corrupção derrubam Milton Ribeiro, ministro da Educação</h2>
-					</a>
+
+				<section id="main-news">
+					<a href="https://instagram.com"><div class="main-news-boxes" id="main-news-box1">
+						<h1>Queda na vertical</h1>
+						<h2>China encontra caixa-preta de avião que caiucom 132 pessoas a bordo</h2>
+						<p>Choque da aeronave com o solo provocou incendio. Não há sinais de sobreviventes</p>
+					</div></a>
+					<a href="https://g1.globo.com/politica/noticia/2022/03/28/governo-oficializa-saida-de-milton-ribeiro-quarto-ministro-da-educacao-de-bolsonaro.ghtml"><div class="main-news-boxes" id="main-news-box2">
+						<h1>Escandalo dos pastores</h1>
+						<h2>Denúncias de corrupção derrubam Milton Ribeiro, ministro da Educação</h2>
+					</div></a>					
+				</section>
+
+				<div id="second-gif" class="main-advertising">
+				<a href="https://youtu.be/ypQZV03l80g"><img src="img/a2.gif"></a>
 				</div>
-				
-			</section>
-
-			<div class="anuncios-principais">
-			<a href="https://youtu.be/ypQZV03l80g"><img src="img/a2.gif" class="anuncio2"></a>
 			</div>
 
+			<div id="main-container2">
+				<div id="main-container2-box1">
+					<div id="news-list1">
+						<ul>
+							<li>
+								<a href="https://g1.globo.com/politica/noticia/2022/03/30/flordelis-e-daniel-silveira-ja-usaram-tornozeleira-eletronica-durante-o-mandato-sem-analise-da-camara.ghtml">
+									<img src="img/silveira.jpg" class="news-list1-images">
+									<h2>Silveira já usou tornozeleira sem análise da Camara: o que diz a lei</h2>
 
-			<div class="lista-esquerda">
-				<ul>
-					<li>
-						<a href="https://g1.globo.com/politica/noticia/2022/03/30/flordelis-e-daniel-silveira-ja-usaram-tornozeleira-eletronica-durante-o-mandato-sem-analise-da-camara.ghtml">
-							<img src="img/silveira.jpg" class="lista-esquerda-imagens">
-							<h2 class="lista-esquerda-textos">Silveira já usou tornozeleira sem análise da Camara: o que diz a lei</h2>
+									<p>ENTENDA: Câmara pode analisar pedido para suspender ação do STF</p>
 
-							<p class="lista-esquerda-textos">ENTENDA: Câmara pode analisar pedido para suspender ação do STF</p>
+									<p>Daniel Silveira se filia ao PTB, diz assessoria; partido não confirma</p> 
+								</a>
+							</li>
+								
+							<li>
+								<a href="https://g1.globo.com/economia/noticia/2022/03/31/pispasep-r-208-milhoes-esquecidos-do-abono-salarial-podem-ser-sacados-a-partir-desta-quinta-veja-como-fazer.ghtml">
+									<img src="img/carteiratrabalho.jpg" class="news-list1-images">
+									<h1>Economia</h1>
+									<h2>Esqueceu como retirar o dinheiro do PIS/Pasep? Veja como fazer</h2>
 
-							<p class="lista-esquerda-textos">Daniel Silveira se filia ao PTB, diz assessoria; partido não confirma</p> 
-						</a>
-					</li>
-						
-					<li>
-						<a href="https://g1.globo.com/economia/noticia/2022/03/31/pispasep-r-208-milhoes-esquecidos-do-abono-salarial-podem-ser-sacados-a-partir-desta-quinta-veja-como-fazer.ghtml">
-							<img src="img/carteiratrabalho.jpg" class="lista-esquerda-imagens">
-							<h1 class="lista-esquerda-textos">Economia</h1>
-							<h2 class="lista-esquerda-textos">Esqueceu como retirar o dinheiro do PIS/Pasep? Veja como fazer</h2>
+									<p>R$ 208 milhões do abono de anos anteriores de 320 mil trabalhadores poderão ser sacador a partir de hoje.</p>
+								</a>
+							</li>
 
-							<p class="lista-esquerda-textos">R$ 208 milhões do abono de anos anteriores de 320 mil trabalhadores poderão ser sacador a partir de hoje.</p>
-						</a>
-					</li>
+							<li>
+								<a href="https://g1.globo.com/politica/noticia/2022/03/30/inss-senado-aprova-mudancas-nas-regras-sobre-pagamento-de-pericias-judiciais-em-acoes.ghtml">
+									<img src="img/pericia.jpg" class="news-list1-images">
+									<h1>Previdência</h1>
+									<h2>INSS: Senado altera regras para pagamento de perícias judiciais; veja o que muda</h2>
 
-					<li>
-						<a href="https://g1.globo.com/politica/noticia/2022/03/30/inss-senado-aprova-mudancas-nas-regras-sobre-pagamento-de-pericias-judiciais-em-acoes.ghtml">
-							<img src="img/pericia.jpg" class="lista-esquerda-imagens">
-							<h1 class="lista-esquerda-textos">Previdência</h1>
-							<h2 class="lista-esquerda-textos">INSS: Senado altera regras para pagamento de perícias judiciais; veja o que muda</h2>
+									<p>Proposta vai à sanção presidencial.</p> 
+								</a>
+							</li>
 
-							<p class="lista-esquerda-textos">Proposta vai à sanção presidencial.</p> 
-						</a>
-					</li>
+							<li>
+								<a href="https://g1.globo.com/loterias/noticia/2022/04/02/mega-sena-concurso-2468-resultado.ghtml">
+									<img src="img/megasena.jpg" class="news-list1-images">
+									<h1>Loterias</h1>
+									<h2>Veja dezenas sorteadas da Mega-Sena de R$ 122 milhões</h2>
 
-					<li>
-						<a href="https://g1.globo.com/loterias/noticia/2022/04/02/mega-sena-concurso-2468-resultado.ghtml">
-							<img src="img/megasena.jpg" class="lista-esquerda-imagens">
-							<h1 class="lista-esquerda-textos">Loterias</h1>
-							<h2 class="lista-esquerda-textos">Veja dezenas sorteadas da Mega-Sena de R$ 122 milhões</h2>
+									<p>Rateio ainda não foi divulgado.</p> 
+								</a>
+							</li>
 
-							<p class="lista-esquerda-textos">Rateio ainda não foi divulgado.</p> 
-						</a>
-					</li>
+							<li>
+								<a href="https://g1.globo.com/loterias/noticia/2022/04/02/mega-sena-concurso-2468-resultado.ghtml">
+									<img src="img/jessiej.jpg" class="news-list1-images">
+									<h1>Rock in Rio 2022</h1>
+									<h2>Festival anuncia Jessie J no lugar de Joss Stone</h2>
 
-					<li>
-						<a href="https://g1.globo.com/loterias/noticia/2022/04/02/mega-sena-concurso-2468-resultado.ghtml">
-							<img src="img/jessiej.jpg" class="lista-esquerda-imagens">
-							<h1 class="lista-esquerda-textos">Rock in Rio 2022</h1>
-							<h2 class="lista-esquerda-textos">Festival anuncia Jessie J no lugar de Joss Stone</h2>
+									<p>Mudança no Palco Sunset ocorre no mesmo dia que se apresentam Corinne Bailey Rae, Gloria Groove e Duda Beat.</p> 
+								</a>
+							</li>
 
-							<p class="lista-esquerda-textos">Mudança no Palco Sunset ocorre no mesmo dia que se apresentam Corinne Bailey Rae, Gloria Groove e Duda Beat.</p> 
-						</a>
-					</li>
+							<li>
+								<a href="https://g1.globo.com/pop-arte/cinema/noticia/2022/04/07/de-expulsao-de-membros-a-premio-cancelado-relembre-punicoes-dadas-pela-academia-do-oscar.ghtml">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/k-A_pBCdxcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="news-list1-videos"></iframe>
+									<h1>Caso Will Smith</h1>
+									<h2>De expulsão a Oscar cancelado: relembe punições da Academia</h2>
 
-					<li>
-						<a href="https://g1.globo.com/pop-arte/cinema/noticia/2022/04/07/de-expulsao-de-membros-a-premio-cancelado-relembre-punicoes-dadas-pela-academia-do-oscar.ghtml">
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/k-A_pBCdxcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="lista-esquerda-videos"></iframe>
-							<h1 class="lista-esquerda-textos">Caso Will Smith</h1>
-							<h2 class="lista-esquerda-textos">De expulsão a Oscar cancelado: relembe punições da Academia</h2>
+									<p>Há 2 horas - Em Cinema</p> 
+								</a>
+							</li>
 
-							<p class="lista-esquerda-textos">Há 2 horas - Em Cinema</p> 
-						</a>
-					</li>
+							<li>
+								<a href="https://g1.globo.com/pe/pernambuco/noticia/2022/04/11/alunos-recebem-merenda-mofada-em-escola-estadual-e-denunciam-goteiras-em-salas-e-banheiros-quebrados.ghtml">
+									<img src="img/comidamofada.jpg" class="news-list1-images">
+									<h1>Pernambuco</h1>
+									<h2>Alunos recebem merenda mofada em escola estadual do Recife</h2>
+									<p>Estudantes também denunciaram banheiros quebrados e goteiras nas salas de aula.</p>
+									<p>Há 2 horas - Em Pernambuco</p> 
+								</a>
 
-					<li>
-						<a href="https://g1.globo.com/pe/pernambuco/noticia/2022/04/11/alunos-recebem-merenda-mofada-em-escola-estadual-e-denunciam-goteiras-em-salas-e-banheiros-quebrados.ghtml">
-							<img src="img/comidamofada.jpg" class="lista-esquerda-imagens">
-							<h1 class="lista-esquerda-textos">Pernambuco</h1>
-							<h2 class="lista-esquerda-textos">Alunos recebem merenda mofada em escola estadual do Recife</h2>
-							<p class="lista-esquerda-textos">Estudantes também denunciaram banheiros quebrados e goteiras nas salas de aula.</p>
-							<p class="lista-esquerda-textos">Há 2 horas - Em Pernambuco</p> 
-						</a>
+						</ul>
+					</div>
+				</div>
 
-				</ul>
+				<div id="main-container2-box2">
+					<div id="news-list2">
+						<ul>
+							<h3>Notícias que podem te interessar</h3>
+							<li>
+								<a href="https://g1.globo.com/mundo/ao-vivo/guerra-ucrania-russia-putin-invasao.ghtml#G1-FEED-BOX-user-sel-8,uftop,09a4f783-2ad5-42dc-9fbf-2e15bed14ba0">
+									<img src="img/tanque.jpg" class="news-list2-images">
+									<h2>GUERRA NA UCRANIA: Com cessar-fogo, corredor humanitário é aberto em Mariupol; Rússia e Ucrania retomarão negociações no sábado</h2>
+								</a>
+							</li>
+
+							<li>
+								<a href="https://g1.globo.com/ce/ceara/noticia/2022/03/31/mulher-bebada-e-abandonada-em-rua-e-estuprada-por-homem-em-itaitinga-no-ceara-video.ghtml#G1-FEED-BOX-user-sel-8,uftop,09a4f783-2ad5-42dc-9fbf-2e15bed14ba0">
+									<img src="img/casa.jpg" class="news-list2-images">
+									<h2>Mulher desacordada é deixada em rua e estuprada por homem em Itaitinga, no Ceará</h2>
+								</a>
+							</li>
+
+							<li>
+								<a href="https://g1.globo.com/sp/sorocaba-jundiai/noticia/2022/03/31/apos-passar-por-transformacao-em-salao-de-beleza-morador-de-rua-decide-mudar-de-vida-cansei-da-humilhacao.ghtml#G1-FEED-BOX-user-sel-8,uftop,09a4f783-2ad5-42dc-9fbf-2e15bed14ba0">
+									<img src="img/mendigo.jpg" class="news-list2-images">
+									<h2>Após passar por transformação em salão de beleza, morador de rua decide mudar de vida: 'Cansei da humilhação'</h2>
+								</a>
+							</li>
+
+							<li>
+								<a href="https://g1.globo.com/go/goias/noticia/2022/04/02/jornalista-pedro-ferreira-da-secretaria-estadual-de-saude-morre-aos-33-anos-em-goiania.ghtml#G1-FEED-BOX-user-sel-8,uftop,01a726d5-5eef-42af-ac08-33e4153995da">
+									<img src="img/pedroferreira.jpg" class="news-list2-images">
+									<h2>Jornalista Pedro Ferreira, da Secrataria Estadual de Saúde, morre aos 33 anos em Goiânia</h2>
+								</a>
+							</li>
+
+							<li>
+								<a href="https://g1.globo.com/sp/sao-jose-do-rio-preto-aracatuba/noticia/2022/04/02/ex-vereador-e-encontrado-morto-apos-matar-a-ex-mulher-com-tiro-em-general-salgado.ghtml#G1-FEED-BOX-user-sel-8,uftop,01a726d5-5eef-42af-ac08-33e4153995da">
+									<img src="img/vereador.jpg" class="news-list2-images"">
+									<h2>Ex-vereador é encontrado morto após matar ex-mulher com tiro em Genral Salgado</h2>
+								</a>
+							</li>
+
+							<li>
+								<a href="https://g1.globo.com/rj/rio-de-janeiro/noticia/2022/04/02/temporal-deixa-um-morto-no-rio.ghtml#G1-FEED-BOX-user-sel-8,uftop,01a726d5-5eef-42af-ac08-33e4153995da">
+									<img src="img/chuvas.jpg" class="news-list2-images">
+									<h2>Número de mortos após chuva no RJ chega a 14; Angra tem 5 desaparecidos</h2>
+								</a>
+							</li>
+
+						</ul>
+					</div>
+
+					<div id="podcast-list">
+						<h1>Podcast</h1>
+
+						<a href="https://g1.globo.com/podcast/o-assunto/" id="oassunto">
+							<p>o assunto</p></a>
+
+						<a href="https://g1.globo.com/podcast/resumao-diario/" id="resumao">
+							<p>resumão</p></a>
+
+						<a href="https://g1.globo.com/podcast/educacao-financeira/" id="educacao-financeira">
+							<p>educação capital</p></a>
+
+						<a href="https://g1.globo.com/podcast/g1-ouviu/" id="g1ouviu">
+							<p>g1 ouviu</p></a>
+
+						<a href="https://g1.globo.com/globonews/podcast/papo-de-politica/" id="papo">
+							<p>papo de política</p></a>
+
+						<a href="https://g1.globo.com/fantastico/podcast/isso-e-fantastico/" id="issoefantastico">
+							<p>isso é fantástico</p></a>
+
+						<a href="https://g1.globo.com/bemestar/podcast/" id="bemestar">
+							<p>bem estar</p></a>
+
+						<a href="https://g1.globo.com/podcast/cade-meu-trampo/" id="cademeutrampo">
+							<p>cadê meu trampo?</p></a>
+
+						<a href="https://g1.globo.com/rj/rio-de-janeiro/podcast/desenrola-rio/" id="desenrolario">
+							<p>desenrola, rio</p></a>
+
+						<a href="https://g1.globo.com/podcast/abuso/" id="abuso">
+							<p>abuso</p></a>
+
+						<a href="https://g1.globo.com/fantastico/podcast/prazer-renata/" id="prazerrenata">
+							<p>prazer, renata</p></a>
+
+						<a href="https://g1.globo.com/fantastico/podcast/bichos-na-escuta/" id="bichosnaescuta">
+							<p>bichos na escuta</p></a>
+					</div>
+				</div>
 			</div>
-
-			<div class="lista-direita">
-				<ul>
-					<h3>Notícias que podem te interessar</h3>
-					<li>
-						<a href="https://g1.globo.com/mundo/ao-vivo/guerra-ucrania-russia-putin-invasao.ghtml#G1-FEED-BOX-user-sel-8,uftop,09a4f783-2ad5-42dc-9fbf-2e15bed14ba0">
-							<img src="img/tanque.jpg" class="lista-direita-imagens">
-							<h2>GUERRA NA UCRANIA: Com cessar-fogo, corredor humanitário é aberto em Mariupol; Rússia e Ucrania retomarão negociações no sábado</h2>
-						</a>
-					</li>
-
-					<li>
-						<a href="https://g1.globo.com/ce/ceara/noticia/2022/03/31/mulher-bebada-e-abandonada-em-rua-e-estuprada-por-homem-em-itaitinga-no-ceara-video.ghtml#G1-FEED-BOX-user-sel-8,uftop,09a4f783-2ad5-42dc-9fbf-2e15bed14ba0">
-							<img src="img/casa.jpg" class="lista-direita-imagens">
-							<h2>Mulher desacordada é deixada em rua e estuprada por homem em Itaitinga, no Ceará</h2>
-						</a>
-					</li>
-
-					<li>
-						<a href="https://g1.globo.com/sp/sorocaba-jundiai/noticia/2022/03/31/apos-passar-por-transformacao-em-salao-de-beleza-morador-de-rua-decide-mudar-de-vida-cansei-da-humilhacao.ghtml#G1-FEED-BOX-user-sel-8,uftop,09a4f783-2ad5-42dc-9fbf-2e15bed14ba0">
-							<img src="img/mendigo.jpg" class="lista-direita-imagens">
-							<h2>Após passar por transformação em salão de beleza, morador de rua decide mudar de vida: 'Cansei da humilhação'</h2>
-						</a>
-					</li>
-
-					<li>
-						<a href="https://g1.globo.com/go/goias/noticia/2022/04/02/jornalista-pedro-ferreira-da-secretaria-estadual-de-saude-morre-aos-33-anos-em-goiania.ghtml#G1-FEED-BOX-user-sel-8,uftop,01a726d5-5eef-42af-ac08-33e4153995da">
-							<img src="img/pedroferreira.jpg" class="lista-direita-imagens">
-							<h2>Jornalista Pedro Ferreira, da Secrataria Estadual de Saúde, morre aos 33 anos em Goiânia</h2>
-						</a>
-					</li>
-
-					<li>
-						<a href="https://g1.globo.com/sp/sao-jose-do-rio-preto-aracatuba/noticia/2022/04/02/ex-vereador-e-encontrado-morto-apos-matar-a-ex-mulher-com-tiro-em-general-salgado.ghtml#G1-FEED-BOX-user-sel-8,uftop,01a726d5-5eef-42af-ac08-33e4153995da">
-							<img src="img/vereador.jpg" class="lista-direita-imagens">
-							<h2>Ex-vereador é encontrado morto após matar ex-mulher com tiro em Genral Salgado</h2>
-						</a>
-					</li>
-
-					<li>
-						<a href="https://g1.globo.com/rj/rio-de-janeiro/noticia/2022/04/02/temporal-deixa-um-morto-no-rio.ghtml#G1-FEED-BOX-user-sel-8,uftop,01a726d5-5eef-42af-ac08-33e4153995da">
-							<img src="img/chuvas.jpg" class="lista-direita-imagens">
-							<h2>Número de mortos após chuva no RJ chega a 14; Angra tem 5 desaparecidos</h2>
-						</a>
-					</li>
-
-				</ul>
-			</div>
-
-			<div class="janela-direita">
-
-				<h1>Podcast</h1>
-
-				<a href="https://g1.globo.com/podcast/o-assunto/" id="oassunto">
-					<p class="janela-direita-itens">o assunto</p></a>
-
-				<a href="https://g1.globo.com/podcast/resumao-diario/" id="resumao">
-					<p class="janela-direita-itens">resumão</p></a>
-
-				<a href="https://g1.globo.com/podcast/educacao-financeira/" id="educacao-financeira">
-					<p class="janela-direita-itens">educação capital</p></a>
-
-				<a href="https://g1.globo.com/podcast/g1-ouviu/" id="g1ouviu">
-					<p class="janela-direita-itens">g1 ouviu</p></a>
-
-				<a href="https://g1.globo.com/globonews/podcast/papo-de-politica/" id="papo">
-					<p class="janela-direita-itens">papo de política</p></a>
-
-				<a href="https://g1.globo.com/fantastico/podcast/isso-e-fantastico/" id="issoefantastico">
-					<p class="janela-direita-itens">isso é fantástico</p></a>
-
-				<a href="https://g1.globo.com/bemestar/podcast/" id="bemestar">
-					<p class="janela-direita-itens">bem estar</p></a>
-
-				<a href="https://g1.globo.com/podcast/cade-meu-trampo/" id="cademeutrampo">
-					<p class="janela-direita-itens">cadê meu trampo?</p></a>
-
-				<a href="https://g1.globo.com/rj/rio-de-janeiro/podcast/desenrola-rio/" id="desenrolario">
-					<p class="janela-direita-itens">desenrola, rio</p></a>
-
-				<a href="https://g1.globo.com/podcast/abuso/" id="abuso">
-					<p class="janela-direita-itens">abuso</p></a>
-
-				<a href="https://g1.globo.com/fantastico/podcast/prazer-renata/" id="prazerrenata">
-					<p class="janela-direita-itens">prazer, renata</p></a>
-
-				<a href="https://g1.globo.com/fantastico/podcast/bichos-na-escuta/" id="bichosnaescuta">
-					<p class="janela-direita-itens">bichos na escuta</p></a>
-			</div>
-
-			<a href="index.html" class="botao-vejamais">VEJA MAIS</a>
-
+			
+			<a href="index.html" id="botao-vejamais"><div id="main-container3">VEJA MAIS</div></a>
 		</main>
 
 		<footer>
-			<h1>g1</h1>
-			<h2>últimas notícias</h2>
-			<p>&copy; Copyright 2000-2022 Globo Comunicação e Participações S.A.</p>
-			<nav class="navegacao-footer">
-				<ul>
-					<li class="navegacao-footer-itens"><a href="globo.html" style="border: 0px">princípios editoriais</a></li>
-					<li class="navegacao-footer-itens"><a href="g1.html">política de privacidade</a></li>
-					<li class="navegacao-footer-itens"><a href="ge.html">minha conta</a></li>
-					<li class="navegacao-footer-itens"><a href="gshow.html">anuncie conosco</a></li>
-				</ul>
-			</nav>
+			<div id="footer-container1">
+				<h1>g1</h1>
+				<h2>últimas notícias</h2>
+			</div>
+			<div id="footer-container2">
+				<p>&copy; Copyright 2000-2022 Globo Comunicação e Participações S.A.</p>
+				<nav class="navegacao-footer">
+					<a href="globo.html">princípios editoriais</a></li>
+					<a href="g1.html">política de privacidade</a></li>
+					<a href="ge.html">minha conta</a></li>
+					<a href="gshow.html">anuncie conosco</a></li>
+				</nav>
+			</div>
 		</footer>
-
 	</body>
