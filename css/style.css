@@ -229,7 +229,7 @@ main a{
 }
 
 #main-news-box2 {
-	background: url(img/pastores.jpg);
+	background: url("../img/pastores.jpg");
 	background-size: 100% 100%;
 	justify-content: space-between;
 }
@@ -371,33 +371,33 @@ main a{
 
 #oassunto {
 	background-color: darkgrey;
-	background-image: url("img/oassunto.jpg");
+	background-image: url("../img/oassunto.jpg");
 	box-shadow: inset 0 0 7em rgb(107, 105, 96), inset 0 0 7em black;
 }
 
 #resumao {
 	box-shadow: inset 0 0 7em rgb(158, 1, 1), inset 0 0 5em black;
-	background-image: url("img/resumao.jpg");
+	background-image: url("../img/resumao.jpg");
 }
 
 #educacao-financeira {
 	box-shadow: inset 0 0 8em rgba(0, 116, 10, 0.897), inset 0 0 7em black;
-	background-image: url("img/educacaofinanceira.jpg");
+	background-image: url("../img/educacaofinanceira.jpg");
 }
 
 #g1ouviu {
 	box-shadow: inset 0 0 7em rgb(221, 97, 184), inset 0 0 5em black;
-	background-image: url("img/g1ouviu.jpg");
+	background-image: url("../img/g1ouviu.jpg");
 }
 
 #papo {
 	box-shadow: inset 0 0 8em rgb(218, 135, 10), inset 0 0 9em black;
-	background-image: url("img/papodepolitica.jpg");
+	background-image: url("../img/papodepolitica.jpg");
 }
 
 #issoefantastico {
 	box-shadow: inset 0 0 7em rgba(80, 0, 146, 0.541), inset 0 0 7em black;
-	background-image: url("img/issoefantastico.jpg");
+	background-image: url("../img/issoefantastico.jpg");
 }
 
 #bemestar {
@@ -408,27 +408,27 @@ main a{
 
 #cademeutrampo {
 	box-shadow: inset 0 0 7em rgb(194, 60, 8), inset 0 0 5em black;
-	background-image: url("img/cademeutrampo.jpg");
+	background-image: url("../img/cademeutrampo.jpg");
 }
 
 #desenrolario {
 	box-shadow: inset 0 0 4em rgb(9, 20, 172), inset 0 0 7em black;
-	background-image: url("img/desenrolario.jpg");
+	background-image: url("../img/desenrolario.jpg");
 }
 
 #abuso {
 	box-shadow: inset 0 0 7em rgb(90, 90, 90), inset 0 0 5em black;
-	background-image: url("img/abuso.jpg");
+	background-image: url("../img/abuso.jpg");
 }
 
 #prazerrenata {
 	box-shadow: inset 0 0 6em rgb(175, 100, 2), inset 0 0 5em black;
-	background-image: url("img/prazerrenata.jpg");
+	background-image: url("../img/prazerrenata.jpg");
 }
 
 #bichosnaescuta {
 	box-shadow: inset 0 0 4em rgb(255, 208, 0), inset 0 0 6em black;
-	background-image: url("img/bichosnaescuta.jpg");
+	background-image: url("../img/bichosnaescuta.jpg");
 }
 
 #main-container3 {
@@ -498,44 +498,4 @@ footer a {
 @media screen and (max-width: 480px) {html, main, body {
 	width: min-content;
 	display: inline-block;
-}
-
-#busca {
-	left: 87em;
-}
-
-.caixa-principal {
-	width: 80%;
-	padding: 0;
-}
-
-.caixa-esquerda {
-	width: 38em;
-    height: 598px;
-    margin-left: 3em;
-}
-
-.caixa-direita {
-	width: 38em;
-    position: relative;
-    left: 43em;	
-}
-
-.lista-esquerda {
-	width: 60%;
-	display: inline-block;
-}
-
-.lista-direita {
-	position: relative;
-    top: -55em;
-    left: 1em;
-}
-
-.janela-direita {
-	width: 27%;
-    display: inline-block;
-    position: relative;
-    left: 58em;
-    bottom: 53em;
-}
+}}
